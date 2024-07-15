@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="_e9artifacts">
+    <output-path>$PROJECT_DIR$/../../WEAVER/ecology/WEB-INF/lib</output-path>
+    <root id="archive" name="_e9artifacts.jar">
+      <element id="module-output" name="e9" />
+    </root>
+  </artifact>
+</component>
