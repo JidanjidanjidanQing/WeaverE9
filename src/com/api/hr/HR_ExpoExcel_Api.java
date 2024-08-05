@@ -115,12 +115,12 @@ public class HR_ExpoExcel_Api {
 
         rs.executeSql(sql);
 
-        if (!rs.next()) {
-            this.bb.writeLog("ApachePOI读取数据失败 - 入库2天内未领用工时订单");
-        }
-        else{
-            this.bb.writeLog("ApachePOI读取数据成功 - 入库2天内未领用工时订单");
-        }
+//        if (!rs.next()) {
+//            this.bb.writeLog("ApachePOI读取数据失败 - 入库2天内未领用工时订单");
+//        }
+//        else{
+//            this.bb.writeLog("ApachePOI读取数据成功 - 入库2天内未领用工时订单");
+//        }
 
         //在内存中创建一个Excel文件对象
         XSSFWorkbook excel = new XSSFWorkbook();
@@ -251,12 +251,12 @@ public class HR_ExpoExcel_Api {
 
         rs.executeSql(sql);
 
-        if (!rs.next()) {
-            this.bb.writeLog("ApachePOI读取数据失败 - 入库6天未关闭订单");
-        }
-        else{
-            this.bb.writeLog("ApachePOI读取数据成功 - 入库6天未关闭订单");
-        }
+//        if (!rs.next()) {
+//            this.bb.writeLog("ApachePOI读取数据失败 - 入库6天未关闭订单");
+//        }
+//        else{
+//            this.bb.writeLog("ApachePOI读取数据成功 - 入库6天未关闭订单");
+//        }
 
         //在内存中创建一个Excel文件对象
         XSSFWorkbook excel = new XSSFWorkbook();
@@ -365,12 +365,12 @@ public class HR_ExpoExcel_Api {
 
         rs.executeSql(sql);
 
-        if (!rs.next()) {
-            this.bb.writeLog("ApachePOI读取数据失败 - 修改过工时的订单");
-        }
-        else{
-            this.bb.writeLog("ApachePOI读取数据成功 - 修改过工时的订单");
-        }
+//        if (!rs.next()) {
+//            this.bb.writeLog("ApachePOI读取数据失败 - 修改过工时的订单");
+//        }
+//        else{
+//            this.bb.writeLog("ApachePOI读取数据成功 - 修改过工时的订单");
+//        }
 
         //在内存中创建一个Excel文件对象
         XSSFWorkbook excel = new XSSFWorkbook();
@@ -466,12 +466,12 @@ public class HR_ExpoExcel_Api {
 
         rs.executeSql(sql);
 
-        if (!rs.next()) {
-            this.bb.writeLog("ApachePOI读取数据失败 - 修改过领料订单");
-        }
-        else{
-            this.bb.writeLog("ApachePOI读取数据成功 - 修改过领料订单");
-        }
+//        if (!rs.next()) {
+//            this.bb.writeLog("ApachePOI读取数据失败 - 修改过领料订单");
+//        }
+//        else{
+//            this.bb.writeLog("ApachePOI读取数据成功 - 修改过领料订单");
+//        }
 
         //在内存中创建一个Excel文件对象
         XSSFWorkbook excel = new XSSFWorkbook();
