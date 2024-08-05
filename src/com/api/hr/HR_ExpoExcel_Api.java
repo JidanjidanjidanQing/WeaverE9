@@ -462,7 +462,7 @@ public class HR_ExpoExcel_Api {
         //调用外部数据源
         RecordSetDataSource rs = new RecordSetDataSource("WeaverView");
 
-        String sql = "select * from HR_修改过领料的订单 where left([子项号码],2)='WC'";
+        String sql = "select * from HR_修改过领料的订单 where left([子项号码],2)!='WC'";
 
         rs.executeSql(sql);
 
